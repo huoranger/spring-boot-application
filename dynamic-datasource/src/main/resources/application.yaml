@@ -1,0 +1,19 @@
+huoranger:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: hu200012
+    url: jdbc:mysql://localhost:3306/app1?useSSL=false&serverTimezone=UTC
+    dynamic-datasource:
+      datasource1:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/app1?useSSL=false&serverTimezone=UTC
+        username: root
+        password: hu200012
+      datasource2:
+        driver-class-name: com.mysql.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/app2?useSSL=false&serverTimezone=UTC
+        username: root
+        password: hu200012
+server:
+  port: 8010
